@@ -1,0 +1,13 @@
+@import './reset',
+        './variable',
+        './mixins',
+        './media',
+                './base';
+
+@import './blocks/header-top',
+        './blocks/header-bot',
+        './blocks/mobile-menu',
+        './blocks/select-project',
+        './blocks/automatic',
+        './blocks/design', 
+        './blocks/сomment';

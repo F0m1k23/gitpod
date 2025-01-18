@@ -1,0 +1,129 @@
+.header__bot {
+    margin-top: 32px;
+}
+
+.header__bot-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+    @include desktop {
+        gap: 30px;
+    }
+
+    @include desktop-min {
+        justify-content: center;
+    }
+
+    @include tablet {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+.header__bot-card {
+    flex: 1 1 560px;
+    @include desktop-min {
+        flex: 1 1 100%;
+    }
+}
+
+.header__bot-title {
+    color: var(--color-dark);
+    font-weight: 700;
+    line-height: 88px;
+    margin-bottom: 39px;
+    @include fluid-text (32, 80);
+
+    @include desktop {
+        margin-bottom: 28px;
+        line-height: 66px;
+    }
+
+    @include desktop-min {
+        @include fluid-text (32, 60);
+        margin-bottom: 28px;
+        line-height: 56px;
+        margin-bottom: 18px;
+    }
+
+}
+
+.header__bot-text {
+    color: var(--color-light-dark);
+    line-height: 32px;
+    margin-bottom: 48px;
+    @include fluid-text (18, 23);
+
+    @include desktop {
+        margin-bottom: 28px;
+        line-height: 27px;
+    }
+}
+
+.header__bot-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 18px;
+    @include desktop-min {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.header__bot-btn {
+    background-color: var(--color-accent);
+    color: var(--color-dark);
+    font-weight: 700;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 46px;
+    border-radius: 16px;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: var(--color-accent-hover);
+    }
+}
+
+.header__bot-block__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__bot-link {
+    color: var(--color-light-dark);
+
+    &:hover {
+        color: var(--color-accent);
+        text-decoration: underline;
+    }
+}
+
+.header__bot-icons {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 24px;
+}
+
+.header__bot-images {
+    max-width: 100%;
+    height: auto;
+
+    @include desktop {
+        width: 500px;
+    }
+
+    @include desktop-min {
+        width: 400px;
+    }
+
+    @include tablet {
+        max-width: 100%;
+    }
+}

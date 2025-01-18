@@ -1,0 +1,18 @@
+@mixin fluid-text($min, $max) {
+    font-size: clamp(#{$min}px, #{$max / 1200 * 100}vw, #{$max}px);
+};
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+@mixin link-btn-black { 
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: var(--color-dark);
+    color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
