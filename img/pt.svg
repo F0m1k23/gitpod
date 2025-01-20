@@ -1,0 +1,22 @@
+<svg width="27.000000" height="27.000000" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_881">
+			<rect id="Frame" rx="0.000000" width="26.000000" height="26.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="2.594752" y1="2.360037" x2="15.945463" y2="15.825525" id="paint_linear_1_884_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#387EB8"/>
+			<stop offset="1.000000" stop-color="#366994"/>
+		</linearGradient>
+		<linearGradient x1="10.807542" y1="10.926219" x2="25.146252" y2="24.735344" id="paint_linear_1_885_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFE052"/>
+			<stop offset="1.000000" stop-color="#FFC331"/>
+		</linearGradient>
+	</defs>
+	<g clip-path="url(#clip1_881)">
+		<path id="path8615" d="M13.4 0C6.54 0 6.97 2.98 6.97 2.98L6.98 6.08L13.52 6.08L13.52 7.01L4.38 7.01C4.38 7.01 0 6.51 0 13.46C0 20.41 3.82 20.17 3.82 20.17L6.11 20.17L6.11 16.94C6.11 16.94 5.98 13.09 9.88 13.09C13.77 13.09 16.36 13.09 16.36 13.09C16.36 13.09 20.01 13.15 20.01 9.55C20.01 5.95 20.01 3.6 20.01 3.6C20.01 3.6 20.56 0 13.4 0ZM9.79 2.08C10.44 2.08 10.97 2.61 10.97 3.26C10.97 3.91 10.44 4.44 9.79 4.44C9.14 4.44 8.61 3.91 8.61 3.26C8.61 2.61 9.14 2.08 9.79 2.08Z" fill="url(#paint_linear_1_884_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="path8620" d="M13.59 27C20.45 27 20.02 24.01 20.02 24.01L20.01 20.91L13.47 20.91L13.47 19.98L22.61 19.98C22.61 19.98 27 20.48 27 13.53C27 6.58 23.17 6.82 23.17 6.82L20.88 6.82L20.88 10.05C20.88 10.05 21.01 13.9 17.11 13.9C13.22 13.9 10.63 13.9 10.63 13.9C10.63 13.9 6.98 13.84 6.98 17.44C6.98 21.04 6.98 23.39 6.98 23.39C6.98 23.39 6.43 27 13.59 27ZM17.2 24.91C16.55 24.91 16.02 24.38 16.02 23.73C16.02 23.08 16.55 22.55 17.2 22.55C17.85 22.55 18.38 23.08 18.38 23.73C18.38 24.38 17.85 24.91 17.2 24.91Z" fill="url(#paint_linear_1_885_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

@@ -1,5 +1,16 @@
 .comment {
-    margin-bottom: 300px;
+    margin-bottom: 177px;
+    @include desktop {
+        margin-bottom: 107px;
+    }
+    
+    @include tablet {
+        margin-bottom: 87px;
+    }
+    
+    @include mobile {
+        margin-bottom: 37px;
+    }
 }
 
 .comment-title {
@@ -26,6 +37,7 @@
 .swiper {
     overflow: hidden;
     max-width: 100%;
+    margin-bottom: 8px;
 }
 
 .swiper-wrapper {
@@ -67,7 +79,7 @@
     }
 }
 
-.comment__card-info {}
+
 
 .comment__card-name {
     font-weight: 700;
@@ -80,5 +92,19 @@
 
     span {
         font-weight: 700;
+    }
+}
+.comment-logos {
+    padding-top: 91px;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 100%;
+    }
+    @include tablet {
+        padding-top: 61px;
+    }
+    @include mobile {
+        padding-top: 11px;
     }
 }
